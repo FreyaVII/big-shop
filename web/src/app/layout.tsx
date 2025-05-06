@@ -29,12 +29,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className={"flex flex-col bg-slate-800"}>
-          <h1 className={"text-center"}>Chopin</h1>
+        <div className={"flex flex-col pb-2 bg-slate-800"}>
+          <h1 className={"text-center pb-2"}>Frédéric Chopin</h1>
           <nav className={"flex justify-evenly"}>
-            <Button><Link href="/">Chopin List</Link></Button>
-            <Button><Link href="/recipes">Recipes</Link></Button>
-            <Button><Link href="/ingredients">Ingredients</Link></Button>
+            <Link href="/" className={"w-1/3"}><Button className={"w-full"}>CHOPIN</Button></Link>
+            <Link href="/recipes" className={"w-1/3"}><Button className={"w-full"}>RECIPES</Button></Link>
+            <Link href="/ingredients" className={"w-1/3"}><Button className={"w-full"}>INGREDIENTS</Button></Link>
           </nav>
         </div>
 

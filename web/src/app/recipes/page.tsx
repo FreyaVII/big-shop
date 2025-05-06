@@ -3,8 +3,8 @@
 export default function Recipes() {
     return (
         <>
-            <h2>Recipes</h2>
-            <p>Here are all your recipes</p>
+            <h2 className={"text-center"}>Recipes</h2>
+            <p className={"text-center"}>Here are all your recipes</p>
         </>
     )
 }
