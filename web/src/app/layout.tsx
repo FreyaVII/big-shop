@@ -31,10 +31,10 @@ export default function RootLayout({
       >
         <div className={"flex flex-col pb-2 bg-slate-800"}>
           <h1 className={"text-center pb-2"}>Frédéric Chopin</h1>
-          <nav className={"flex justify-evenly"}>
-            <Link href="/" className={"w-1/3"}><Button className={"w-full"}>CHOPIN</Button></Link>
-            <Link href="/recipes" className={"w-1/3"}><Button className={"w-full"}>RECIPES</Button></Link>
-            <Link href="/ingredients" className={"w-1/3"}><Button className={"w-full"}>INGREDIENTS</Button></Link>
+          <nav className={"flex flex-col sm:flex-row"}>
+            <Link href="/" className={"w-full border rounded-md sm:w-1/3"}><Button className={"w-full"}>CHOPIN</Button></Link>
+            <Link href="/recipes" className={"w-full border rounded-md sm:w-1/3"}><Button className={"w-full"}>RECIPES</Button></Link>
+            <Link href="/ingredients" className={"w-full border rounded-md sm:w-1/3"}><Button className={"w-full"}>INGREDIENTS</Button></Link>
           </nav>
         </div>
 
